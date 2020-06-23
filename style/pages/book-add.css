@@ -1,0 +1,13 @@
+.book-add{
+    text-align: center;
+}
+
+.book-add input{
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.book-add h2{
+    text-align: center;
+    padding: 10px;
+}

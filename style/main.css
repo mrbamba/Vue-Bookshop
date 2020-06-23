@@ -4,11 +4,12 @@
 @import './pages/about.css';
 @import './pages/book-app.css';
 @import './pages/book-edit.css';
-@import './pages/boot-details.css';
+@import './pages/book-details.css';
 @import './pages/home-page.css';
 @import './cmps/book-filter.css';
 @import './cmps/book-preview.css';
 @import './cmps/book-details.css';
+@import './pages/book-add.css';
 /* BASE */
 
 *{

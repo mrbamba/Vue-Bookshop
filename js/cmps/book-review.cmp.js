@@ -2,6 +2,8 @@
 
 
 export default{
+    name:'book-review',
+
     props:['book'],
     template:`
         <div class="review-panel"">

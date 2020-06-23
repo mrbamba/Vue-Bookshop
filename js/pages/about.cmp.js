@@ -1,6 +1,7 @@
 
 
 export default{
+    name:'about',
     template:`
     <section class="about-us app-main">
         <h2>About Vue Bookshop</h2>

@@ -4,6 +4,7 @@ export const bookService = {
   getBooks,
   getById,
   saveBook,
+  getBooksFromGoogle
 };
 
 import { Utils } from "./utils.service.js";
@@ -401,4 +402,10 @@ function saveBook(book) {
   }
   Utils.storeToStorage(sKey, gBooks);
   return Promise.resolve(book)
+}
+
+
+function getBooksFromGoogle(searchStr){
+  return axios.get(`https://www.googleapis.com/books/v1/volumes?printType=books&q=${searchStr}`)
+    .then(res=> res.data)
 }

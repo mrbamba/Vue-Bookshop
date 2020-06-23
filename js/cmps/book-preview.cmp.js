@@ -2,6 +2,8 @@
 
 
 export default{
+    name:'book-preview',
+
     props:['book'],
     template:`
     <li class="book-preview">

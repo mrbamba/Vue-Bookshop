@@ -2,6 +2,8 @@
 
 
 export default{
+  name:'book-filter',
+
   template: `
     <section class="book-filter">
         <h2>Search for a book</h2>

@@ -14,3 +14,22 @@
 .add-new-book:hover{
     background-color: rgb(242, 242, 242);
 }
+
+.import-new-book-from-google{
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    font-size: 1.15rem;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 25px;
+    min-width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    transition: ease-in-out 0.3s;
+}
+
+.import-new-book-from-google:hover{
+    background-color: rgb(242, 242, 242);
+
+}
