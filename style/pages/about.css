@@ -1,0 +1,20 @@
+
+.about-us{
+    text-align: center;
+}
+
+.about-us h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.about-us .creator-img{
+    max-width: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    padding: 25px;
+}
+
+.about-us p{
+    padding: 25px;
+}

@@ -1,0 +1,15 @@
+.book-filter h2{
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    color: rgb(38, 68, 159);
+}
+
+.book-filter input{
+    display:block;
+    margin : 0 auto;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+}

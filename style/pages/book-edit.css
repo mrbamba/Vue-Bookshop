@@ -1,0 +1,14 @@
+.book-edit h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.save-book{
+    background-color: #fff;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+}
+
+.save-book:hover{
+    background-color: rgb(237, 237, 237);
+}

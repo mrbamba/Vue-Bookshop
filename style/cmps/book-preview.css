@@ -1,0 +1,14 @@
+.book-preview{
+    display: block;
+    margin: 10px;
+    background-color: peachpuff;
+    min-height: 80px;
+    min-width: 100px;
+    padding: 15px;
+}
+
+.book-preview a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.15rem;
+}

@@ -1,0 +1,37 @@
+.book-details{
+    background-color: peachpuff;
+    padding: 15px;
+    color: rgb(58, 58, 58);
+    display: block;
+
+
+}
+.book-details .img-container{
+    text-align: center;
+}
+.book-details > h2, h3, h4, h5{
+    text-align: center;
+}
+
+.book-details >  h4, h5{
+    color: rgb(162, 162, 162);
+}
+.book-details > h4:last-of-type{
+    padding-bottom: 25px;
+}
+.book-details-general{
+    width: 50%;
+
+}
+.book-details-price{
+    /* background-color: #fff; */
+    width: 50%;
+    text-align: center;
+}
+
+.book-details .pricered{
+    color: red;
+}
+.book-details .pricegreen{
+    color: green;
+}

@@ -1,0 +1,16 @@
+.add-new-book{
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    font-size: 1.15rem;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 25px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    transition: ease-in-out 0.3s;
+}
+.add-new-book:hover{
+    background-color: rgb(242, 242, 242);
+}

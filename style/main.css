@@ -1,0 +1,32 @@
+/* IMPORTS */
+@import './helpers.css';
+@import './layout.css';
+@import './pages/about.css';
+@import './pages/book-app.css';
+@import './pages/book-edit.css';
+@import './pages/boot-details.css';
+@import './pages/home-page.css';
+@import './cmps/book-filter.css';
+@import './cmps/book-preview.css';
+@import './cmps/book-details.css';
+/* BASE */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+    padding: 0px;
+    margin: 0px;
+}
+
+button{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 10px;
+}
